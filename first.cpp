@@ -4,7 +4,10 @@ using namespace std;
 
 int main(){
 
+    // improving performance by unsyncing cpp ios and c stdio
     ios::sync_with_stdio(0);
+
+    // and by removing the pause before the cin stream from the cout
     cin.tie(0);
 
 
